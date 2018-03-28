@@ -1,0 +1,103 @@
+body {
+   
+    background: url(../images/regal.png);
+    background-repeat: repeat;
+}
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+    background-repeat: no-repeat;
+    
+
+
+}
+#wrapper h1{
+    font-family:'Lekton', sans-serif;
+    font-size: 60px;
+    text-align:center;
+}
+
+
+#subwrapper {
+    margin-left: center;
+    margin-right: auto;
+}
+h2 {
+    font-size: 30px;
+    color: black;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    width: 70%;
+    text-align: justify;
+    font-family: 'Port Lligat Sans', sans-serif;
+}
+h3 {
+    font-family: 'Port Lligat Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(78, 78, 78);
+}
+
+.button {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#start {
+    background-color: black;
+    border: black 2px solid;
+    border-radius: 12px;
+    font-family: 'Port Lligat Sans', sans-serif;
+    padding: 10px 35px;
+    color: rgb(185, 185, 185);
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.answer-button {
+    background-color: black;
+    border: rgb(185, 185, 185) 2px solid;
+    border-radius: 12px;
+    font-family: 'Port Lligat Sans', sans-serif;
+    padding: 10px 35px;
+    color: rgb(185, 185, 185);
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    width: 70%;
+    
+}
+#reset {
+    background-color: black;
+    border: black 2px solid;
+    border-radius: 12px;
+    font-family: 'Port Lligat Sans', sans-serif;
+    padding: 10px 35px;
+    color: rgb(185, 185, 185);
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#start:hover,
+.answer-button:hover,
+#reset:hover {
+    background-color: rgb(78, 78, 78);
+    color: whitesmoke;
+    border: rgb(117, 116, 116) 2px solid;
+    padding: 10px 35px;
+}
+
+
